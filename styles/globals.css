@@ -1,16 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.question code {
+  color: rgba(0, 0, 0, 0);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.question code::before {
+  content: "Q)";
+  font-size: small;
+  vertical-align: top;
+  color: black;
 }
 
-* {
-  box-sizing: border-box;
+.question code:hover {
+  color: #DC2626;
 }
