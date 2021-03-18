@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="w-16 h-16 mx-2 ">
                     <Link href="/"><a><Icon /></a></Link>
                 </div>
-                <Link href="/howto"><a className="pl-4 text-md md:text-xl font-bold">HowToUse</a></Link>
+                <Link href="/howto"><a className="pl-4 text-md md:text-xl font-bold">使い方</a></Link>
             </div>
         </div>
     )
